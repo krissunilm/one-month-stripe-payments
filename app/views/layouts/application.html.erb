@@ -13,19 +13,19 @@
   <%= csrf_meta_tags %>
 
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>One Month Growth Hacking</title>
-    
-    <link rel="stylesheet" href="css/main.css">
-</head>
-
 </head>
 <body>
+<div id="content" class="container">
+    <header id="content-header">
+        <div id="price-container">
+          <span class="glyphicon glyphicon-tag"></span><span class="price">$4.99</span>
+        </div>
+        <%= image_tag('header-image.jpg', id: 'content-header-img', alt:"Learn Growth Hacking" ) %>
+    </header>
 
 <%= yield %>
+
+</div>
 
 </body>
 </html>
