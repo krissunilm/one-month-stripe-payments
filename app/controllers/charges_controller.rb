@@ -21,7 +21,8 @@ class ChargesController < ApplicationController
 	  	                          amount: params[:amount],
 	  	                          description: params[:description],
 	  	                          currency: 'usd',
-	  	                          customer_id: customer.id, product_id: 1
+	  	                          customer_id: customer.id, product_id: 1,
+	  	                          uuid: SecureRandom.uuid
 	  	                          )
 
 	  redirect_to purchase
