@@ -43,6 +43,13 @@ gem "figaro"
 
 gem 'letter_opener',        group: :development
 
+#active admin and devise for active admin
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
